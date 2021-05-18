@@ -27,24 +27,11 @@
 	<!-- Bootstrap Header Code Custom Bootstrap Header -->
 	<nav class="navbar navbar-expand-sm  navbar-dark">
 		<a class="navbar-brand"><img src="http://18.189.182.245/wp-content/uploads/2020/12/Tesla-Logo-Silver.svg" class="menu_title"></a>
-<!-- 			<button class="navbar-toggler" type="button" data-toggle="collapse"
-										 data-target="#navbarSupportedContent" 
-										 aria-controls="navbarSupportedContent" 
-										 aria-expanded="false" aria-label="Toggle navigation">
-		<h1><i class="fa fa-bars menu_expand" ></i></h1>
-	  	</button>	 -->
 	  <!-- Links -->
-		<?php wp_nav_menu( array( 'theme_location'       => 'main-menu',
+		<?php wp_nav_menu( array( 'theme_location'     => 'main-menu',
 								  'container'            => 'div',
 								  'items_wrap'           => '<ul id="%1$s" class="menu_item">%3$s</ul>',
 								  'container_aria_label' => '' ) ); ?>
-<!-- 		<?php wp_nav_menu( array( 'theme_location'       => 'main-menu',
-								  'container'            => 'div',
-								  'items_wrap'           => '<ul id="%1$s" >%3$s</ul>',
-								  'container_aria_label' => '' ) ); ?> -->
-<!-- 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		
-	  </div> -->
 	</nav>
 	<div class="hero_img">
 		<h1 class="hero_description"><?php bloginfo( 'description' ); ?></h1>	
